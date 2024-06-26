@@ -1,0 +1,84 @@
+/* Ajustes generales para el layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  box-shadow: 0 6px 8px rgba(24, 104, 0, 0.822);
+  background-image: url(/assets/nav-background-hojas.jpg);
+  background-size: contain;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-family: monospace;
+  font-size: 150%;
+}
+
+/* Contenedor del logo */
+.logo-container {
+  flex: 1;
+  padding-top: 5px;
+  scale: 2;
+}
+
+.logo {
+  height: 30px; 
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  flex: 2;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+.nav-buttons button:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}

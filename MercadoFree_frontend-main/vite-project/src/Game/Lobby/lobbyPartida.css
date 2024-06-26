@@ -1,0 +1,26 @@
+
+
+.partida-table {
+  background-color: #c2a97ae8;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden; /* Añadido para evitar que los bordes se superpongan con el fondo */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.699); /* Sombra suave para la tabla */
+}
+
+.partida-table th,
+.partida-table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Aumenta el espacio interior de las celdas */
+  text-align: center; /* Centra el texto horizontalmente en todas las celdas */
+}
+
+.partida-table th {
+  background-color: #997f4fe1;
+  color: white; /* Cambia el color del texto del encabezado */
+  text-transform: uppercase; /* Convierte el texto del encabezado a mayúsculas */
+}

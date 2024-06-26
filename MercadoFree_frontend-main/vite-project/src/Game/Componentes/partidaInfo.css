@@ -1,0 +1,54 @@
+.jugadores-table {
+  font-size: medium;
+  background-color: #887b63e8;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  overflow: hidden; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.699); 
+}
+
+.jugadores-table th,
+.jugadores-table td {
+  font-size: small;
+  border: 1px solid #ddd;
+  padding: 5px; /* Aumenta el espacio interior de las celdas */
+  text-align: center; /* Centra el texto horizontalmente en todas las celdas */
+}
+
+.jugadores-table th {
+  background-color: #997f4fe1;
+  color: white; /* Cambia el color del texto del encabezado */
+  text-transform: uppercase; /* Convierte el texto del encabezado a mayúsculas */
+}
+
+.jugadores-table td {
+  background-color: rgba(248, 236, 203, 0.418);
+  color: black;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.pieza img {
+  width: 35px;
+  height: 35px;
+}
+
+.pieza {
+  justify-content: center;
+  align-items: center;
+
+}

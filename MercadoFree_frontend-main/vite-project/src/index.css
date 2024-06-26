@@ -1,0 +1,113 @@
+:root {
+  font-family:monospace;
+
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100%;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #241b1b;
+  margin-top: 2%;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #d2c5b7;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #d2c5b7;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: 
+    radial-gradient(circle, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.7)),
+    url('assets/background-madera.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  font-size: large;
+  font-family:monospace;
+  color: white;
+  background-color: rgb(117, 66, 0);
+  border-width: 5px;
+  border-color: rgb(83, 44, 0);
+  border-style: solid;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5rem 1rem; /* Ajusta el espacio dentro de los botones */
+}
+
+button:hover {
+  background-color: rgb(177, 116, 47);
+  border-color: rgb(134, 72, 2);
+}
+
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-secondary {
+  font-size: large;
+  color: white;
+  background-color: rgb(160, 113, 51);
+  border-width: 5px;
+  border-color: rgb(107, 57, 0);
+  border-style: solid;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5rem 1rem;  
+}
+
+.button-secondary:hover {
+  background-color: rgb(78, 46, 9);
+  border-color: rgb(58, 30, 0);
+}
+
+.button-secondary:focus,
+.button-secondary:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Modificar el color de fondo y texto en el modo claro */
+@media (prefers-color-scheme: light) {
+  .button-secondary {
+    color: #ffffff; /* Color de texto para modo oscuro */
+    background-color: #213547; /* Fondo del botón secundario en modo claro */
+    border-color: #213547; /* Color de borde del botón secundario en modo claro */
+  }
+
+  .button-secondary:hover {
+    background-color: #3a4e5b; /* Cambio de color al pasar el mouse en modo claro */
+    border-color: #3a4e5b; /* Cambio de color de borde al pasar el mouse en modo claro */
+  }
+}

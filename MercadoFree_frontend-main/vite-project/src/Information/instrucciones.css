@@ -1,0 +1,41 @@
+.titulo {
+  text-align: center;
+  font-size: 250%;
+  margin-bottom: 1.5rem;
+  color: rgb(83, 44, 0); /* Color marrón para combinar con el fondo de madera */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.reglas-lista {
+  list-style: decimal inside;
+  padding-left: 0;
+  text-align: left;
+  color: rgb(83, 44, 0);
+  line-height: 1.6;
+}
+
+.reglas-lista li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  background: #dfc9a1; 
+  padding: 1rem;
+  padding-left: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid rgb(83, 44, 0); 
+}
+
+.reglas-lista ul {
+  list-style: circle inside;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.reglas-lista ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  background: #ebe0cb; 
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid rgb(83, 44, 0); 
+}

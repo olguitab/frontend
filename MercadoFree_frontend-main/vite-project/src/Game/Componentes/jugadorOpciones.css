@@ -1,0 +1,14 @@
+.opciones-partida {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .opciones-partida button:disabled {
+    background-color: #cccccc56; /* Un gris más oscuro */
+    color: #302f2f7a; /* Texto gris oscuro */
+    border: 5px solid #2b29292f; /* Borde gris oscuro */
+    cursor: not-allowed; /* Cambia el cursor para indicar que está deshabilitado */
+  }
+  

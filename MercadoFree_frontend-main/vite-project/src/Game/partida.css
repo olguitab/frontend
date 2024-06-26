@@ -1,0 +1,43 @@
+.partida-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.jugador-info-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.tablero-section {
+  flex: 2;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.info-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  justify-content: space-between;
+  height: 100%; 
+  gap: 10px;
+}
+
+.container-info-opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+

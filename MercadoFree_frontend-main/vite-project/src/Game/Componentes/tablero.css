@@ -1,0 +1,83 @@
+.tablero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-image: url(public/assets/bordes.png); /* Imagen de fondo */
+  background-size: cover; /* Ajustar imagen al tamaño del contenedor */
+  filter: contrast(1.1) saturate(1.1);
+}
+
+.fila {
+  display: flex;
+}
+
+.casilla {
+  box-shadow: #ffffff;
+  width: 80px; /* Tamaño fijo para cada casilla */
+  height: 80px; /* Tamaño fijo para cada casilla */
+  border: 1px solid black; /* Borde para cada casilla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4px; /* Margen entre casillas */
+  font-size: 12px; /* Tamaño de fuente */
+  border-radius: 3px; /* Bordes redondeados */
+}
+
+/* Clases para diferentes tipos de casillas */
+.casilla-terreno {
+  background-color: #806743; /* Marrón */
+  color: white; /* Texto en blanco */
+}
+
+.casilla-misterio {
+  background-color: #914747; /* Rojo */
+  color: white; /* Texto en blanco */
+}
+
+.casilla-oportunidad {
+  background-color: #434f74; /* Azul */
+  color: white; /* Texto en blanco */
+}
+
+.casilla-go {
+  background-color: #306430; /* Verde */
+  color: white; /* Texto en blanco */
+}
+
+.casilla-canon {
+  background-color: #3f3f3f; /* Gris */
+  color: white; /* Texto en blanco */
+}
+
+.casilla-puente {
+  background-color: #929292;; /* Gris */
+  color: rgb(15, 15, 15); /* Texto en blanco */
+}
+
+/* Otras casillas */
+.casilla-default {
+  background-color: #806743; /* Gris */
+  color: rgb(247, 247, 247); /* Texto en blanco */
+}
+
+.piezas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.piezas img {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+
+.color {
+  color: white;
+  background-color: white;
+  border-radius: 50%;
+}

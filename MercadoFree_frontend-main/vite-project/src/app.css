@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Fondo temporal para visualizar mejor */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+
+button {
+  font-size: large;
+  color: white;
+  background-color: rgb(117, 66, 0);
+  border-width: 5px;
+  border-color: rgb(83, 44, 0);
+  border-style: solid;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5rem 1rem; /* Ajusta el espacio dentro de los botones */
+}
+
+button:hover {
+  background-color: rgb(177, 116, 47);
+  border-color: rgb(134, 72, 2);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(252, 225, 152, 0.616);
+  border-width: 5px;
+  border-style: solid; /* Establece el estilo del borde como sólido */
+  border-color: rgb(63, 34, 0); 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 10rem;
+  margin-bottom: px;
+}
+
+.submain-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #413001;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #5f4202;
+  color: white;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.788);
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .logo {
+  max-width: 250px; /* Ajusta el tamaño máximo del logo aquí */
+  height: auto;
+  border-radius: 50%; /* Hace el logo redondo */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra alrededor del logo */
+  animation: rotate 5s linear infinite; /* Animación de rotación */
+  transition: transform 0.3s; /* Suaviza el efecto al detener la rotación */
+}
+
+header .logo:hover {
+  animation-play-state: paused; /* Detiene la rotación al pasar el ratón */
+  transform: scale(1.1); /* Agranda el logo al pasar el ratón */
+}
+
+header h1 {
+  font-size: 3rem;
+  font-family:cursive;
+  margin-bottom: 0rem;
+  text-shadow: 2px 2px 4px rgba(129, 84, 1, 0.596);
+  color: black; /* Cambiado a negro */
+}
+
+header p {
+  font-family:fantasy;
+  font-size: 1.6rem;
+  max-width: 70%;
+  color: black; /* Cambiado a negro */
+}
+

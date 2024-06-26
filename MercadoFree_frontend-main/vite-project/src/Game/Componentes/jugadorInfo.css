@@ -1,0 +1,52 @@
+.jugador-info {
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.jugador-info h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.jugador-info p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+}
+
+.jugador-info p strong {
+  display: inline-block;
+  width: 100px;
+}
+
+.estado-vivo {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.estado-perdedor {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.material-container {
+  display: flex;
+  align-items: center;
+}
+
+.material-icon {
+  width: 50px;
+  height: 60px;
+}
+
+.material-count {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
